@@ -3,7 +3,7 @@ import { satisfies } from "semver";
 import {
     CompilerSeries,
     CompilerVersions,
-    CompilerVersions04,
+//    CompilerVersions04,
     CompilerVersions05,
     CompilerVersions06,
     CompilerVersions07,
