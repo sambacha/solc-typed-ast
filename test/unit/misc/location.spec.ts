@@ -46,7 +46,7 @@ describe("Location", () => {
     describe("getCoordinates()", () => {
         const fileName = "dummy.sol";
         const source = [
-            "pragma solidity 0.5.0;",
+            "pragma solidity 0.5.17;",
             "",
             "contract Test {",
             "    uint a = 1;",
