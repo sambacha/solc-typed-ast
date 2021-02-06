@@ -12,25 +12,26 @@ import {
 } from "../../../src";
 
 describe("Compile version utils", () => {
-    it("Compiler 0.4.* versions array is valid", () => {
+/**    it("Compiler 0.4.* versions array is valid", () => {
         expect(CompilerVersions04.length).toBeGreaterThan(0);
 
         expect(CompilerVersions04.every((v) => satisfies(v, "0.4"))).toBeTruthy();
     });
 
-    it("Compiler 0.5.* versions array is valid", () => {
+*/
+    it("Compiler 0.5.12 versions array is valid", () => {
         expect(CompilerVersions05.length).toBeGreaterThan(0);
 
         expect(CompilerVersions05.every((v) => satisfies(v, "0.5"))).toBeTruthy();
     });
 
-    it("Compiler 0.6.* versions array is valid", () => {
+    it("Compiler 0.6.6 versions array is valid", () => {
         expect(CompilerVersions06.length).toBeGreaterThan(0);
 
         expect(CompilerVersions06.every((v) => satisfies(v, "0.6"))).toBeTruthy();
     });
 
-    it("Compiler 0.7.* versions array is valid", () => {
+    it("Compiler 0.7.4 versions array is valid", () => {
         expect(CompilerVersions07.length).toBeGreaterThan(0);
 
         expect(CompilerVersions07.every((v) => satisfies(v, "0.7"))).toBeTruthy();
@@ -45,7 +46,7 @@ describe("Compile version utils", () => {
     it("General supported compiler series array is valid", () => {
         expect(CompilerSeries).toHaveLength(5);
 
-        expect(CompilerSeries).toContain(CompilerVersions04);
+   //     expect(CompilerSeries).toContain(CompilerVersions04);
         expect(CompilerSeries).toContain(CompilerVersions05);
         expect(CompilerSeries).toContain(CompilerVersions06);
         expect(CompilerSeries).toContain(CompilerVersions07);
@@ -54,14 +55,14 @@ describe("Compile version utils", () => {
 
     it("General supported compiler versions array is valid", () => {
         expect(CompilerVersions).toHaveLength(
-            CompilerVersions04.length +
+ //           CompilerVersions04.length +
                 CompilerVersions05.length +
                 CompilerVersions06.length +
                 CompilerVersions07.length +
                 CompilerVersions08.length
         );
 
-        expect(CompilerVersions).toEqual(expect.arrayContaining(CompilerVersions04));
+//        expect(CompilerVersions).toEqual(expect.arrayContaining(CompilerVersions04));
         expect(CompilerVersions).toEqual(expect.arrayContaining(CompilerVersions05));
         expect(CompilerVersions).toEqual(expect.arrayContaining(CompilerVersions06));
         expect(CompilerVersions).toEqual(expect.arrayContaining(CompilerVersions07));
