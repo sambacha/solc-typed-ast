@@ -1,0 +1,1 @@
+alias sol-ast="~/solc-ast/dist/bin/compile.js"

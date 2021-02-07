@@ -1,0 +1,13 @@
+1. run entrypoint.sh 
+
+$ ./entrypoint.sh
+
+2. once installed, attach as an alias for easy use
+
+$ ~/.bash_profile <bash_alias
+
+3. run command 
+
+$ sol-ast --help
+
+4. done
