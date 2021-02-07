@@ -356,10 +356,7 @@
                 "test()": "f8a8fd6d"
             },
             "gasEstimates": {
-                "creation": [
-                    71,
-                    25000
-                ],
+                "creation": [71, 25000],
                 "external": {
                     "test()": 105
                 },
@@ -373,18 +370,14 @@
             "srcmapRuntime": "73:49:0:-;;;;;;;;;;;;;;;;;;95:25;;;;;;;;;;;;;;;;:::o"
         }
     },
-    "sourceList": [
-        "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/pragma.sol"
-    ],
+    "sourceList": ["/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/pragma.sol"],
     "sources": {
         "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/pragma.sol": {
             "AST": {
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/pragma.sol",
                     "exportedSymbols": {
-                        "Simple": [
-                            7
-                        ]
+                        "Simple": [7]
                     }
                 },
                 "children": [
@@ -409,12 +402,7 @@
                     },
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                ">=",
-                                "0.4",
-                                ".13"
-                            ]
+                            "literals": ["solidity", ">=", "0.4", ".13"]
                         },
                         "id": 2,
                         "name": "PragmaDirective",
@@ -422,18 +410,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                7
-                            ],
+                            "linearizedBaseContracts": [7],
                             "name": "Simple",
                             "scope": 9
                         },
@@ -443,9 +425,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "test",
                                     "payable": false,
                                     "scope": 7,
@@ -454,9 +434,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 3,
@@ -465,9 +443,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 4,
@@ -476,9 +452,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "statements": [
-                                                null
-                                            ]
+                                            "statements": [null]
                                         },
                                         "children": [],
                                         "id": 5,
@@ -497,12 +471,7 @@
                     },
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "<",
-                                "0.6",
-                                ".0"
-                            ]
+                            "literals": ["solidity", "<", "0.6", ".0"]
                         },
                         "id": 8,
                         "name": "PragmaDirective",

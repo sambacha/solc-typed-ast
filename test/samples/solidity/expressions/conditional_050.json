@@ -42,21 +42,14 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/expressions/conditional_050.sol",
                 "exportedSymbols": {
-                    "TestConditional": [
-                        113
-                    ]
+                    "TestConditional": [113]
                 },
                 "id": 114,
                 "nodeType": "SourceUnit",
                 "nodes": [
                     {
                         "id": 1,
-                        "literals": [
-                            "solidity",
-                            "^",
-                            "0.5",
-                            ".0"
-                        ],
+                        "literals": ["solidity", "^", "0.5", ".0"],
                         "nodeType": "PragmaDirective",
                         "src": "0:23:0"
                     },
@@ -67,9 +60,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 113,
-                        "linearizedBaseContracts": [
-                            113
-                        ],
+                        "linearizedBaseContracts": [113],
                         "name": "TestConditional",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -1070,9 +1061,7 @@
                                     "src": "522:141:0",
                                     "statements": [
                                         {
-                                            "assignments": [
-                                                79
-                                            ],
+                                            "assignments": [79],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -1615,20 +1604,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/expressions/conditional_050.sol",
                     "exportedSymbols": {
-                        "TestConditional": [
-                            113
-                        ]
+                        "TestConditional": [113]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.5",
-                                ".0"
-                            ]
+                            "literals": ["solidity", "^", "0.5", ".0"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -1636,18 +1618,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                113
-                            ],
+                            "linearizedBaseContracts": [113],
                             "name": "TestConditional",
                             "scope": 114
                         },
@@ -1658,9 +1634,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "conditionalSimple",
                                     "scope": 113,
                                     "stateMutability": "nonpayable",
@@ -1862,9 +1836,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "conditionalWithNested",
                                     "scope": 113,
                                     "stateMutability": "nonpayable",
@@ -2291,9 +2263,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "conditionalWithComplexExpressions",
                                     "scope": 113,
                                     "stateMutability": "nonpayable",
@@ -2495,9 +2465,7 @@
                                                                             "isPure": false,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "uint256",
                                                                             "type_conversion": false
                                                                         },
@@ -2693,9 +2661,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "sqrt",
                                     "scope": 113,
                                     "stateMutability": "nonpayable",
@@ -2773,9 +2739,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        79
-                                                    ]
+                                                    "assignments": [79]
                                                 },
                                                 "children": [
                                                     {

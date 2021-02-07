@@ -25,14 +25,12 @@ describe("Dynamic dispatch AST utils", () => {
     const [a, b, c, d, i] = mainUnit.vContracts;
 
     describe("resolve()", () => {
-        const cases: Array<
-            [
-                ContractDefinition,
-                Resolvable,
-                boolean,
-                [ASTNodeConstructor<Resolvable>, number] | undefined
-            ]
-        > = [
+        const cases: Array<[
+            ContractDefinition,
+            Resolvable,
+            boolean,
+            [ASTNodeConstructor<Resolvable>, number] | undefined
+        ]> = [
             [a, a.vStateVariables[0], false, [VariableDeclaration, 3]],
             [b, b.vStateVariables[0], false, [VariableDeclaration, 105]],
             [c, a.vStateVariables[0], false, [VariableDeclaration, 105]],
@@ -97,15 +95,13 @@ describe("Dynamic dispatch AST utils", () => {
     });
 
     describe("resolveByName()", () => {
-        const cases: Array<
-            [
-                ContractDefinition,
-                ASTNodeConstructor<Resolvable>,
-                string,
-                boolean,
-                Array<[ASTNodeConstructor<Resolvable>, number]>
-            ]
-        > = [
+        const cases: Array<[
+            ContractDefinition,
+            ASTNodeConstructor<Resolvable>,
+            string,
+            boolean,
+            Array<[ASTNodeConstructor<Resolvable>, number]>
+        ]> = [
             [a, VariableDeclaration, "v", false, [[VariableDeclaration, 3]]],
             [b, VariableDeclaration, "v", false, [[VariableDeclaration, 105]]],
             [c, VariableDeclaration, "v", false, [[VariableDeclaration, 105]]],
@@ -177,14 +173,12 @@ describe("Dynamic dispatch AST utils", () => {
     });
 
     describe("resolveCallable()", () => {
-        const cases: Array<
-            [
-                ContractDefinition,
-                VariableDeclaration | FunctionDefinition,
-                boolean,
-                [ASTNodeConstructor<VariableDeclaration | FunctionDefinition>, number] | undefined
-            ]
-        > = [
+        const cases: Array<[
+            ContractDefinition,
+            VariableDeclaration | FunctionDefinition,
+            boolean,
+            [ASTNodeConstructor<VariableDeclaration | FunctionDefinition>, number] | undefined
+        ]> = [
             [a, a.vStateVariables[0], false, [VariableDeclaration, 3]],
             [b, a.vStateVariables[0], false, [VariableDeclaration, 105]],
             [c, a.vStateVariables[0], false, [VariableDeclaration, 105]],

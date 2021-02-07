@@ -378,10 +378,7 @@
                 "some()": "c03ee3d3"
             },
             "gasEstimates": {
-                "creation": [
-                    77,
-                    25800
-                ],
+                "creation": [77, 25800],
                 "external": {
                     "some()": 111
                 },
@@ -395,29 +392,20 @@
             "srcmapRuntime": "25:125:0:-;;;;;;;;;;;;;;;;;;45:103;;;;;;;;;;;;;;;103:5;78:64;45:103;;:::o"
         }
     },
-    "sourceList": [
-        "/home/blitz/development/solc-typed-ast/test/samples/solidity/node.sol"
-    ],
+    "sourceList": ["/home/blitz/development/solc-typed-ast/test/samples/solidity/node.sol"],
     "sources": {
         "/home/blitz/development/solc-typed-ast/test/samples/solidity/node.sol": {
             "AST": {
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/node.sol",
                     "exportedSymbols": {
-                        "Test": [
-                            16
-                        ]
+                        "Test": [16]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                ">",
-                                "0.0",
-                                ".0"
-                            ]
+                            "literals": ["solidity", ">", "0.0", ".0"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -425,18 +413,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                16
-                            ],
+                            "linearizedBaseContracts": [16],
                             "name": "Test",
                             "scope": 17
                         },
@@ -446,9 +428,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "some",
                                     "payable": false,
                                     "scope": 16,
@@ -457,9 +437,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -468,9 +446,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 3,
@@ -505,9 +481,7 @@
                                                         "children": [
                                                             {
                                                                 "attributes": {
-                                                                    "assignments": [
-                                                                        6
-                                                                    ]
+                                                                    "assignments": [6]
                                                                 },
                                                                 "children": [
                                                                     {

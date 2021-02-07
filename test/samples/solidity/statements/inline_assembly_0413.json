@@ -960,10 +960,7 @@
                 "singleOneLineAssembly(int256)": "b7107baa"
             },
             "gasEstimates": {
-                "creation": [
-                    105,
-                    52400
-                ],
+                "creation": [105, 52400],
                 "external": {
                     "multipleAssemblies(int256)": 238,
                     "singleMultilineAssembly(int256)": 182,
@@ -993,20 +990,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/inline_assembly_0413.sol",
                     "exportedSymbols": {
-                        "TestAssembly": [
-                            35
-                        ]
+                        "TestAssembly": [35]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.4",
-                                ".13"
-                            ]
+                            "literals": ["solidity", "^", "0.4", ".13"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -1014,18 +1004,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                35
-                            ],
+                            "linearizedBaseContracts": [35],
                             "name": "TestAssembly",
                             "scope": 36
                         },
@@ -1036,9 +1020,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "singleOneLineAssembly",
                                     "payable": false,
                                     "scope": 35,
@@ -1160,9 +1142,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "singleMultilineAssembly",
                                     "payable": false,
                                     "scope": 35,
@@ -1206,9 +1186,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 14,
@@ -1262,9 +1240,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "multipleAssemblies",
                                     "payable": false,
                                     "scope": 35,

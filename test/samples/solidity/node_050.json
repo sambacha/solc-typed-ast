@@ -25,21 +25,14 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/node.sol",
                 "exportedSymbols": {
-                    "Test": [
-                        16
-                    ]
+                    "Test": [16]
                 },
                 "id": 17,
                 "nodeType": "SourceUnit",
                 "nodes": [
                     {
                         "id": 1,
-                        "literals": [
-                            "solidity",
-                            ">",
-                            "0.0",
-                            ".0"
-                        ],
+                        "literals": ["solidity", ">", "0.0", ".0"],
                         "nodeType": "PragmaDirective",
                         "src": "0:23:0"
                     },
@@ -50,9 +43,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 16,
-                        "linearizedBaseContracts": [
-                            16
-                        ],
+                        "linearizedBaseContracts": [16],
                         "name": "Test",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -91,9 +82,7 @@
                                                 "src": "89:53:0",
                                                 "statements": [
                                                     {
-                                                        "assignments": [
-                                                            6
-                                                        ],
+                                                        "assignments": [6],
                                                         "declarations": [
                                                             {
                                                                 "constant": false,
@@ -220,20 +209,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/node.sol",
                     "exportedSymbols": {
-                        "Test": [
-                            16
-                        ]
+                        "Test": [16]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                ">",
-                                "0.0",
-                                ".0"
-                            ]
+                            "literals": ["solidity", ">", "0.0", ".0"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -241,18 +223,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                16
-                            ],
+                            "linearizedBaseContracts": [16],
                             "name": "Test",
                             "scope": 17
                         },
@@ -263,9 +239,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "some",
                                     "scope": 16,
                                     "stateMutability": "nonpayable",
@@ -275,9 +249,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -286,9 +258,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 3,
@@ -323,9 +293,7 @@
                                                         "children": [
                                                             {
                                                                 "attributes": {
-                                                                    "assignments": [
-                                                                        6
-                                                                    ]
+                                                                    "assignments": [6]
                                                                 },
                                                                 "children": [
                                                                     {

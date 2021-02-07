@@ -2067,10 +2067,7 @@
                 "tupleValueReturn()": "2585906a"
             },
             "gasEstimates": {
-                "creation": [
-                    155,
-                    111000
-                ],
+                "creation": [155, 111000],
                 "external": {
                     "emptyReturn()": 127,
                     "multipleReturns(int256)": null,
@@ -2096,20 +2093,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/return_0413.sol",
                     "exportedSymbols": {
-                        "TestReturn": [
-                            68
-                        ]
+                        "TestReturn": [68]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.4",
-                                ".13"
-                            ]
+                            "literals": ["solidity", "^", "0.4", ".13"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -2117,18 +2107,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                68
-                            ],
+                            "linearizedBaseContracts": [68],
                             "name": "TestReturn",
                             "scope": 69
                         },
@@ -2138,9 +2122,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "singleValueReturn",
                                     "payable": false,
                                     "scope": 68,
@@ -2149,9 +2131,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -2235,9 +2215,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "tupleValueReturn",
                                     "payable": false,
                                     "scope": 68,
@@ -2246,9 +2224,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 10,
@@ -2318,9 +2294,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        17
-                                                    ]
+                                                    "assignments": [17]
                                                 },
                                                 "children": [
                                                     {
@@ -2373,9 +2347,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        21
-                                                    ]
+                                                    "assignments": [21]
                                                 },
                                                 "children": [
                                                     {
@@ -2495,9 +2467,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "multipleReturns",
                                     "payable": false,
                                     "scope": 68,
@@ -2576,9 +2546,7 @@
                                                 "children": [
                                                     {
                                                         "attributes": {
-                                                            "assignments": [
-                                                                37
-                                                            ]
+                                                            "assignments": [37]
                                                         },
                                                         "children": [
                                                             {
@@ -2898,9 +2866,7 @@
                                                     {
                                                         "attributes": {
                                                             "argumentTypes": null,
-                                                            "overloadedDeclarations": [
-                                                                null
-                                                            ],
+                                                            "overloadedDeclarations": [null],
                                                             "referencedDeclaration": 31,
                                                             "type": "int256",
                                                             "value": "x"
@@ -2929,9 +2895,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "emptyReturn",
                                     "payable": false,
                                     "scope": 68,
@@ -2940,9 +2904,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 63,
@@ -2951,9 +2913,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 64,

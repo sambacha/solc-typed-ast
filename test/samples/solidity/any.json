@@ -18,9 +18,7 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/any.sol",
                 "exportedSymbols": {
-                    "Test": [
-                        1
-                    ]
+                    "Test": [1]
                 },
                 "id": 2,
                 "nodeType": "SourceUnit",
@@ -32,9 +30,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 1,
-                        "linearizedBaseContracts": [
-                            1
-                        ],
+                        "linearizedBaseContracts": [1],
                         "name": "Test",
                         "nodeType": "ContractDefinition",
                         "nodes": [],
@@ -49,30 +45,20 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/any.sol",
                     "exportedSymbols": {
-                        "Test": [
-                            1
-                        ]
+                        "Test": [1]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                1
-                            ],
+                            "linearizedBaseContracts": [1],
                             "name": "Test",
-                            "nodes": [
-                                null
-                            ],
+                            "nodes": [null],
                             "scope": 2
                         },
                         "id": 1,

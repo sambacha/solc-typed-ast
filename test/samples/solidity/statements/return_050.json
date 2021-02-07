@@ -61,21 +61,14 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/return_050.sol",
                 "exportedSymbols": {
-                    "TestReturn": [
-                        68
-                    ]
+                    "TestReturn": [68]
                 },
                 "id": 69,
                 "nodeType": "SourceUnit",
                 "nodes": [
                     {
                         "id": 1,
-                        "literals": [
-                            "solidity",
-                            "^",
-                            "0.5",
-                            ".0"
-                        ],
+                        "literals": ["solidity", "^", "0.5", ".0"],
                         "nodeType": "PragmaDirective",
                         "src": "0:23:0"
                     },
@@ -86,9 +79,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 68,
-                        "linearizedBaseContracts": [
-                            68
-                        ],
+                        "linearizedBaseContracts": [68],
                         "name": "TestReturn",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -183,9 +174,7 @@
                                     "src": "198:84:0",
                                     "statements": [
                                         {
-                                            "assignments": [
-                                                17
-                                            ],
+                                            "assignments": [17],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -237,9 +226,7 @@
                                             "src": "208:9:0"
                                         },
                                         {
-                                            "assignments": [
-                                                21
-                                            ],
+                                            "assignments": [21],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -631,9 +618,7 @@
                                             },
                                             "id": 58,
                                             "initializationExpression": {
-                                                "assignments": [
-                                                    37
-                                                ],
+                                                "assignments": [37],
                                                 "declarations": [
                                                     {
                                                         "constant": false,
@@ -873,20 +858,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/return_050.sol",
                     "exportedSymbols": {
-                        "TestReturn": [
-                            68
-                        ]
+                        "TestReturn": [68]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.5",
-                                ".0"
-                            ]
+                            "literals": ["solidity", "^", "0.5", ".0"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -894,18 +872,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                68
-                            ],
+                            "linearizedBaseContracts": [68],
                             "name": "TestReturn",
                             "scope": 69
                         },
@@ -916,9 +888,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "singleValueReturn",
                                     "scope": 68,
                                     "stateMutability": "nonpayable",
@@ -928,9 +898,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -1015,9 +983,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "tupleValueReturn",
                                     "scope": 68,
                                     "stateMutability": "nonpayable",
@@ -1027,9 +993,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 10,
@@ -1099,9 +1063,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        17
-                                                    ]
+                                                    "assignments": [17]
                                                 },
                                                 "children": [
                                                     {
@@ -1154,9 +1116,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        21
-                                                    ]
+                                                    "assignments": [21]
                                                 },
                                                 "children": [
                                                     {
@@ -1277,9 +1237,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "multipleReturns",
                                     "scope": 68,
                                     "stateMutability": "nonpayable",
@@ -1359,9 +1317,7 @@
                                                 "children": [
                                                     {
                                                         "attributes": {
-                                                            "assignments": [
-                                                                37
-                                                            ]
+                                                            "assignments": [37]
                                                         },
                                                         "children": [
                                                             {
@@ -1681,9 +1637,7 @@
                                                     {
                                                         "attributes": {
                                                             "argumentTypes": null,
-                                                            "overloadedDeclarations": [
-                                                                null
-                                                            ],
+                                                            "overloadedDeclarations": [null],
                                                             "referencedDeclaration": 31,
                                                             "type": "int256",
                                                             "value": "x"
@@ -1713,9 +1667,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "emptyReturn",
                                     "scope": 68,
                                     "stateMutability": "nonpayable",
@@ -1725,9 +1677,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 63,
@@ -1736,9 +1686,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 64,

@@ -3154,10 +3154,7 @@
                 "uints1(address)": "f81ccb28"
             },
             "gasEstimates": {
-                "creation": [
-                    null,
-                    116800
-                ],
+                "creation": [null, 116800],
                 "external": {
                     "balances(address)": 430,
                     "string3()": null,
@@ -3179,35 +3176,25 @@
         "/home/blitz/development/solc-typed-ast/test/samples/solidity/types/types.sol:15:9: Warning: Variable is declared as a storage pointer. Use an explicit \"storage\" keyword to silence this warning.\n        string deviceYear;\n        ^---------------^\n",
         "/home/blitz/development/solc-typed-ast/test/samples/solidity/types/types.sol:16:9: Warning: Variable is declared as a storage pointer. Use an explicit \"storage\" keyword to silence this warning.\n        string batteryWearLevel;\n        ^---------------------^\n"
     ],
-    "sourceList": [
-        "/home/blitz/development/solc-typed-ast/test/samples/solidity/types/types.sol"
-    ],
+    "sourceList": ["/home/blitz/development/solc-typed-ast/test/samples/solidity/types/types.sol"],
     "sources": {
         "/home/blitz/development/solc-typed-ast/test/samples/solidity/types/types.sol": {
             "AST": {
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/types/types.sol",
                     "exportedSymbols": {
-                        "TestStorage": [
-                            54
-                        ]
+                        "TestStorage": [54]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                54
-                            ],
+                            "linearizedBaseContracts": [54],
                             "name": "TestStorage",
                             "scope": 55
                         },
@@ -3324,9 +3311,7 @@
                                             "isPure": false,
                                             "isStructConstructorCall": false,
                                             "lValueRequested": false,
-                                            "names": [
-                                                null
-                                            ],
+                                            "names": [null],
                                             "type": "uint32",
                                             "type_conversion": true
                                         },
@@ -3353,9 +3338,7 @@
                                             {
                                                 "attributes": {
                                                     "argumentTypes": null,
-                                                    "overloadedDeclarations": [
-                                                        null
-                                                    ],
+                                                    "overloadedDeclarations": [null],
                                                     "referencedDeclaration": 59,
                                                     "type": "uint256",
                                                     "value": "now"

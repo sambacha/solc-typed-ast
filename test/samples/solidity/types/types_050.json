@@ -25,9 +25,7 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/types/types.sol",
                 "exportedSymbols": {
-                    "TestStorage": [
-                        54
-                    ]
+                    "TestStorage": [54]
                 },
                 "id": 55,
                 "nodeType": "SourceUnit",
@@ -39,9 +37,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 54,
-                        "linearizedBaseContracts": [
-                            54
-                        ],
+                        "linearizedBaseContracts": [54],
                         "name": "TestStorage",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -741,26 +737,18 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/types/types.sol",
                     "exportedSymbols": {
-                        "TestStorage": [
-                            54
-                        ]
+                        "TestStorage": [54]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                54
-                            ],
+                            "linearizedBaseContracts": [54],
                             "name": "TestStorage",
                             "scope": 55
                         },
@@ -877,9 +865,7 @@
                                             "isPure": false,
                                             "isStructConstructorCall": false,
                                             "lValueRequested": false,
-                                            "names": [
-                                                null
-                                            ],
+                                            "names": [null],
                                             "type": "uint32",
                                             "type_conversion": true
                                         },
@@ -906,9 +892,7 @@
                                             {
                                                 "attributes": {
                                                     "argumentTypes": null,
-                                                    "overloadedDeclarations": [
-                                                        null
-                                                    ],
+                                                    "overloadedDeclarations": [null],
                                                     "referencedDeclaration": 71,
                                                     "type": "uint256",
                                                     "value": "now"

@@ -76,9 +76,7 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/A.sol",
                 "exportedSymbols": {
-                    "A": [
-                        5
-                    ]
+                    "A": [5]
                 },
                 "id": 6,
                 "nodeType": "SourceUnit",
@@ -101,9 +99,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 5,
-                        "linearizedBaseContracts": [
-                            5
-                        ],
+                        "linearizedBaseContracts": [5],
                         "name": "A",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -162,9 +158,7 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/A.sol",
                     "exportedSymbols": {
-                        "A": [
-                            5
-                        ]
+                        "A": [5]
                     }
                 },
                 "children": [
@@ -174,9 +168,7 @@
                             "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/lib/B.sol",
                             "file": "./lib/B.sol",
                             "scope": 6,
-                            "symbolAliases": [
-                                null
-                            ],
+                            "symbolAliases": [null],
                             "unitAlias": ""
                         },
                         "id": 1,
@@ -185,18 +177,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                5
-                            ],
+                            "linearizedBaseContracts": [5],
                             "name": "A",
                             "scope": 6
                         },
@@ -258,9 +244,7 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/lib/B.sol",
                 "exportedSymbols": {
-                    "B": [
-                        11
-                    ]
+                    "B": [11]
                 },
                 "id": 12,
                 "nodeType": "SourceUnit",
@@ -283,9 +267,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 11,
-                        "linearizedBaseContracts": [
-                            11
-                        ],
+                        "linearizedBaseContracts": [11],
                         "name": "B",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -344,9 +326,7 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/lib/B.sol",
                     "exportedSymbols": {
-                        "B": [
-                            11
-                        ]
+                        "B": [11]
                     }
                 },
                 "children": [
@@ -356,9 +336,7 @@
                             "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/lib2/C.sol",
                             "file": "../lib2/C.sol",
                             "scope": 12,
-                            "symbolAliases": [
-                                null
-                            ],
+                            "symbolAliases": [null],
                             "unitAlias": ""
                         },
                         "id": 7,
@@ -367,18 +345,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                11
-                            ],
+                            "linearizedBaseContracts": [11],
                             "name": "B",
                             "scope": 12
                         },
@@ -440,9 +412,7 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/lib2/C.sol",
                 "exportedSymbols": {
-                    "C": [
-                        18
-                    ]
+                    "C": [18]
                 },
                 "id": 19,
                 "nodeType": "SourceUnit",
@@ -476,9 +446,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 18,
-                        "linearizedBaseContracts": [
-                            18
-                        ],
+                        "linearizedBaseContracts": [18],
                         "name": "C",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -537,9 +505,7 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/lib2/C.sol",
                     "exportedSymbols": {
-                        "C": [
-                            18
-                        ]
+                        "C": [18]
                     }
                 },
                 "children": [
@@ -549,9 +515,7 @@
                             "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/lib2/D.sol",
                             "file": "./D.sol",
                             "scope": 19,
-                            "symbolAliases": [
-                                null
-                            ],
+                            "symbolAliases": [null],
                             "unitAlias": ""
                         },
                         "id": 13,
@@ -564,9 +528,7 @@
                             "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/A.sol",
                             "file": "../A.sol",
                             "scope": 19,
-                            "symbolAliases": [
-                                null
-                            ],
+                            "symbolAliases": [null],
                             "unitAlias": ""
                         },
                         "id": 14,
@@ -575,18 +537,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                18
-                            ],
+                            "linearizedBaseContracts": [18],
                             "name": "C",
                             "scope": 19
                         },
@@ -648,9 +604,7 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/lib2/D.sol",
                 "exportedSymbols": {
-                    "D": [
-                        24
-                    ]
+                    "D": [24]
                 },
                 "id": 25,
                 "nodeType": "SourceUnit",
@@ -673,9 +627,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 24,
-                        "linearizedBaseContracts": [
-                            24
-                        ],
+                        "linearizedBaseContracts": [24],
                         "name": "D",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -734,9 +686,7 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/lib2/D.sol",
                     "exportedSymbols": {
-                        "D": [
-                            24
-                        ]
+                        "D": [24]
                     }
                 },
                 "children": [
@@ -746,9 +696,7 @@
                             "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/imports/A.sol",
                             "file": "../A.sol",
                             "scope": 25,
-                            "symbolAliases": [
-                                null
-                            ],
+                            "symbolAliases": [null],
                             "unitAlias": ""
                         },
                         "id": 20,
@@ -757,18 +705,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                24
-                            ],
+                            "linearizedBaseContracts": [24],
                             "name": "D",
                             "scope": 25
                         },

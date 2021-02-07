@@ -54,21 +54,14 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/block_050.sol",
                 "exportedSymbols": {
-                    "TestBlock": [
-                        160
-                    ]
+                    "TestBlock": [160]
                 },
                 "id": 161,
                 "nodeType": "SourceUnit",
                 "nodes": [
                     {
                         "id": 1,
-                        "literals": [
-                            "solidity",
-                            "^",
-                            "0.5",
-                            ".0"
-                        ],
+                        "literals": ["solidity", "^", "0.5", ".0"],
                         "nodeType": "PragmaDirective",
                         "src": "0:23:0"
                     },
@@ -79,9 +72,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 160,
-                        "linearizedBaseContracts": [
-                            160
-                        ],
+                        "linearizedBaseContracts": [160],
                         "name": "TestBlock",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -97,9 +88,7 @@
                                             "src": "91:158:0",
                                             "statements": [
                                                 {
-                                                    "assignments": [
-                                                        5
-                                                    ],
+                                                    "assignments": [5],
                                                     "declarations": [
                                                         {
                                                             "constant": false,
@@ -156,9 +145,7 @@
                                                     "src": "129:110:0",
                                                     "statements": [
                                                         {
-                                                            "assignments": [
-                                                                9
-                                                            ],
+                                                            "assignments": [9],
                                                             "declarations": [
                                                                 {
                                                                     "constant": false,
@@ -215,9 +202,7 @@
                                                             "src": "175:50:0",
                                                             "statements": [
                                                                 {
-                                                                    "assignments": [
-                                                                        13
-                                                                    ],
+                                                                    "assignments": [13],
                                                                     "declarations": [
                                                                         {
                                                                             "constant": false,
@@ -690,9 +675,7 @@
                                             },
                                             "id": 56,
                                             "initializationExpression": {
-                                                "assignments": [
-                                                    40
-                                                ],
+                                                "assignments": [40],
                                                 "declarations": [
                                                     {
                                                         "constant": false,
@@ -781,9 +764,7 @@
                                             "src": "422:70:0"
                                         },
                                         {
-                                            "assignments": [
-                                                58
-                                            ],
+                                            "assignments": [58],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -1023,9 +1004,7 @@
                                             "src": "522:74:0"
                                         },
                                         {
-                                            "assignments": [
-                                                76
-                                            ],
+                                            "assignments": [76],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -1659,9 +1638,7 @@
                                             },
                                             "id": 127,
                                             "initializationExpression": {
-                                                "assignments": [
-                                                    112
-                                                ],
+                                                "assignments": [112],
                                                 "declarations": [
                                                     {
                                                         "constant": false,
@@ -1750,9 +1727,7 @@
                                             "src": "834:45:0"
                                         },
                                         {
-                                            "assignments": [
-                                                129
-                                            ],
+                                            "assignments": [129],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -1967,9 +1942,7 @@
                                             "src": "910:33:0"
                                         },
                                         {
-                                            "assignments": [
-                                                144
-                                            ],
+                                            "assignments": [144],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -2222,20 +2195,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/block_050.sol",
                     "exportedSymbols": {
-                        "TestBlock": [
-                            160
-                        ]
+                        "TestBlock": [160]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.5",
-                                ".0"
-                            ]
+                            "literals": ["solidity", "^", "0.5", ".0"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -2243,18 +2209,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                160
-                            ],
+                            "linearizedBaseContracts": [160],
                             "name": "TestBlock",
                             "scope": 161
                         },
@@ -2265,9 +2225,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "nestedBlocks",
                                     "scope": 160,
                                     "stateMutability": "nonpayable",
@@ -2277,9 +2235,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -2288,9 +2244,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 3,
@@ -2303,9 +2257,7 @@
                                                 "children": [
                                                     {
                                                         "attributes": {
-                                                            "assignments": [
-                                                                5
-                                                            ]
+                                                            "assignments": [5]
                                                         },
                                                         "children": [
                                                             {
@@ -2360,9 +2312,7 @@
                                                         "children": [
                                                             {
                                                                 "attributes": {
-                                                                    "assignments": [
-                                                                        9
-                                                                    ]
+                                                                    "assignments": [9]
                                                                 },
                                                                 "children": [
                                                                     {
@@ -2417,9 +2367,7 @@
                                                                 "children": [
                                                                     {
                                                                         "attributes": {
-                                                                            "assignments": [
-                                                                                13
-                                                                            ]
+                                                                            "assignments": [13]
                                                                         },
                                                                         "children": [
                                                                             {
@@ -2501,9 +2449,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "statementBlocks",
                                     "scope": 160,
                                     "stateMutability": "nonpayable",
@@ -2513,9 +2459,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 21,
@@ -2524,9 +2468,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 22,
@@ -2566,9 +2508,7 @@
                                                                             "isPure": false,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "tuple()",
                                                                             "type_conversion": false
                                                                         },
@@ -2600,9 +2540,7 @@
                                                                                     "isPure": true,
                                                                                     "isStructConstructorCall": false,
                                                                                     "lValueRequested": false,
-                                                                                    "names": [
-                                                                                        null
-                                                                                    ],
+                                                                                    "names": [null],
                                                                                     "type": "bytes32",
                                                                                     "type_conversion": true
                                                                                 },
@@ -2675,9 +2613,7 @@
                                                                             "isPure": false,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "tuple()",
                                                                             "type_conversion": false
                                                                         },
@@ -2709,9 +2645,7 @@
                                                                                     "isPure": true,
                                                                                     "isStructConstructorCall": false,
                                                                                     "lValueRequested": false,
-                                                                                    "names": [
-                                                                                        null
-                                                                                    ],
+                                                                                    "names": [null],
                                                                                     "type": "bytes32",
                                                                                     "type_conversion": true
                                                                                 },
@@ -2781,9 +2715,7 @@
                                                 "children": [
                                                     {
                                                         "attributes": {
-                                                            "assignments": [
-                                                                40
-                                                            ]
+                                                            "assignments": [40]
                                                         },
                                                         "children": [
                                                             {
@@ -2935,9 +2867,7 @@
                                                                             "isPure": false,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "tuple()",
                                                                             "type_conversion": false
                                                                         },
@@ -2969,9 +2899,7 @@
                                                                                     "isPure": false,
                                                                                     "isStructConstructorCall": false,
                                                                                     "lValueRequested": false,
-                                                                                    "names": [
-                                                                                        null
-                                                                                    ],
+                                                                                    "names": [null],
                                                                                     "type": "bytes32",
                                                                                     "type_conversion": true
                                                                                 },
@@ -3036,9 +2964,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        58
-                                                    ]
+                                                    "assignments": [58]
                                                 },
                                                 "children": [
                                                     {
@@ -3154,9 +3080,7 @@
                                                                             "isPure": false,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "tuple()",
                                                                             "type_conversion": false
                                                                         },
@@ -3188,9 +3112,7 @@
                                                                                     "isPure": false,
                                                                                     "isStructConstructorCall": false,
                                                                                     "lValueRequested": false,
-                                                                                    "names": [
-                                                                                        null
-                                                                                    ],
+                                                                                    "names": [null],
                                                                                     "type": "bytes32",
                                                                                     "type_conversion": true
                                                                                 },
@@ -3293,9 +3215,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        76
-                                                    ]
+                                                    "assignments": [76]
                                                 },
                                                 "children": [
                                                     {
@@ -3449,9 +3369,7 @@
                                                                             "isPure": false,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "tuple()",
                                                                             "type_conversion": false
                                                                         },
@@ -3483,9 +3401,7 @@
                                                                                     "isPure": false,
                                                                                     "isStructConstructorCall": false,
                                                                                     "lValueRequested": false,
-                                                                                    "names": [
-                                                                                        null
-                                                                                    ],
+                                                                                    "names": [null],
                                                                                     "type": "bytes32",
                                                                                     "type_conversion": true
                                                                                 },
@@ -3564,9 +3480,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "testNoBlocks",
                                     "scope": 160,
                                     "stateMutability": "nonpayable",
@@ -3576,9 +3490,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 95,
@@ -3587,9 +3499,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 96,
@@ -3627,9 +3537,7 @@
                                                                     "isPure": false,
                                                                     "isStructConstructorCall": false,
                                                                     "lValueRequested": false,
-                                                                    "names": [
-                                                                        null
-                                                                    ],
+                                                                    "names": [null],
                                                                     "type": "tuple()",
                                                                     "type_conversion": false
                                                                 },
@@ -3661,9 +3569,7 @@
                                                                             "isPure": true,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "bytes32",
                                                                             "type_conversion": true
                                                                         },
@@ -3729,9 +3635,7 @@
                                                                     "isPure": false,
                                                                     "isStructConstructorCall": false,
                                                                     "lValueRequested": false,
-                                                                    "names": [
-                                                                        null
-                                                                    ],
+                                                                    "names": [null],
                                                                     "type": "tuple()",
                                                                     "type_conversion": false
                                                                 },
@@ -3763,9 +3667,7 @@
                                                                             "isPure": true,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "bytes32",
                                                                             "type_conversion": true
                                                                         },
@@ -3830,9 +3732,7 @@
                                                 "children": [
                                                     {
                                                         "attributes": {
-                                                            "assignments": [
-                                                                112
-                                                            ]
+                                                            "assignments": [112]
                                                         },
                                                         "children": [
                                                             {
@@ -3982,9 +3882,7 @@
                                                                     "isPure": false,
                                                                     "isStructConstructorCall": false,
                                                                     "lValueRequested": false,
-                                                                    "names": [
-                                                                        null
-                                                                    ],
+                                                                    "names": [null],
                                                                     "type": "tuple()",
                                                                     "type_conversion": false
                                                                 },
@@ -4016,9 +3914,7 @@
                                                                             "isPure": false,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "bytes32",
                                                                             "type_conversion": true
                                                                         },
@@ -4078,9 +3974,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        129
-                                                    ]
+                                                    "assignments": [129]
                                                 },
                                                 "children": [
                                                     {
@@ -4194,9 +4088,7 @@
                                                                     "isPure": false,
                                                                     "isStructConstructorCall": false,
                                                                     "lValueRequested": false,
-                                                                    "names": [
-                                                                        null
-                                                                    ],
+                                                                    "names": [null],
                                                                     "type": "tuple()",
                                                                     "type_conversion": false
                                                                 },
@@ -4228,9 +4120,7 @@
                                                                             "isPure": false,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "bytes32",
                                                                             "type_conversion": true
                                                                         },
@@ -4307,9 +4197,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        144
-                                                    ]
+                                                    "assignments": [144]
                                                 },
                                                 "children": [
                                                     {
@@ -4423,9 +4311,7 @@
                                                                     "isPure": false,
                                                                     "isStructConstructorCall": false,
                                                                     "lValueRequested": false,
-                                                                    "names": [
-                                                                        null
-                                                                    ],
+                                                                    "names": [null],
                                                                     "type": "tuple()",
                                                                     "type_conversion": false
                                                                 },
@@ -4457,9 +4343,7 @@
                                                                             "isPure": false,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "bytes32",
                                                                             "type_conversion": true
                                                                         },

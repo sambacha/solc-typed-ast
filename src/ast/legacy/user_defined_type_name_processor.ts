@@ -2,7 +2,9 @@ import { ASTReader, ASTReaderConfiguration } from "../ast_reader";
 import { UserDefinedTypeName } from "../implementation/type/user_defined_type_name";
 import { LegacyTypeNameProcessor } from "./type_name_processor";
 
-export class LegacyUserDefinedTypeNameProcessor extends LegacyTypeNameProcessor<UserDefinedTypeName> {
+export class LegacyUserDefinedTypeNameProcessor extends LegacyTypeNameProcessor<
+    UserDefinedTypeName
+> {
     process(
         reader: ASTReader,
         config: ASTReaderConfiguration,

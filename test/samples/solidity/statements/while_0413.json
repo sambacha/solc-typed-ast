@@ -730,10 +730,7 @@
                 "whileWithExpression()": "c323c534"
             },
             "gasEstimates": {
-                "creation": [
-                    93,
-                    42400
-                ],
+                "creation": [93, 42400],
                 "external": {
                     "whileWithBlock()": null,
                     "whileWithExpression()": null
@@ -761,20 +758,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/while_0413.sol",
                     "exportedSymbols": {
-                        "TestWhile": [
-                            47
-                        ]
+                        "TestWhile": [47]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.4",
-                                ".13"
-                            ]
+                            "literals": ["solidity", "^", "0.4", ".13"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -782,18 +772,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                47
-                            ],
+                            "linearizedBaseContracts": [47],
                             "name": "TestWhile",
                             "scope": 48
                         },
@@ -804,9 +788,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "whileWithExpression",
                                     "payable": false,
                                     "scope": 47,
@@ -817,9 +799,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -828,9 +808,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 3,
@@ -841,9 +819,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        5
-                                                    ]
+                                                    "assignments": [5]
                                                 },
                                                 "children": [
                                                     {
@@ -896,9 +872,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        9
-                                                    ]
+                                                    "assignments": [9]
                                                 },
                                                 "children": [
                                                     {
@@ -1074,9 +1048,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "whileWithBlock",
                                     "payable": false,
                                     "scope": 47,
@@ -1087,9 +1059,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 22,
@@ -1098,9 +1068,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 23,
@@ -1111,9 +1079,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        25
-                                                    ]
+                                                    "assignments": [25]
                                                 },
                                                 "children": [
                                                     {
@@ -1166,9 +1132,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        29
-                                                    ]
+                                                    "assignments": [29]
                                                 },
                                                 "children": [
                                                     {

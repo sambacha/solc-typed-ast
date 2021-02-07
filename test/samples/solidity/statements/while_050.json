@@ -30,21 +30,14 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/while_050.sol",
                 "exportedSymbols": {
-                    "TestWhile": [
-                        47
-                    ]
+                    "TestWhile": [47]
                 },
                 "id": 48,
                 "nodeType": "SourceUnit",
                 "nodes": [
                     {
                         "id": 1,
-                        "literals": [
-                            "solidity",
-                            "^",
-                            "0.5",
-                            ".0"
-                        ],
+                        "literals": ["solidity", "^", "0.5", ".0"],
                         "nodeType": "PragmaDirective",
                         "src": "0:23:0"
                     },
@@ -55,9 +48,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 47,
-                        "linearizedBaseContracts": [
-                            47
-                        ],
+                        "linearizedBaseContracts": [47],
                         "name": "TestWhile",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -68,9 +59,7 @@
                                     "src": "88:77:0",
                                     "statements": [
                                         {
-                                            "assignments": [
-                                                5
-                                            ],
+                                            "assignments": [5],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -122,9 +111,7 @@
                                             "src": "98:9:0"
                                         },
                                         {
-                                            "assignments": [
-                                                9
-                                            ],
+                                            "assignments": [9],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -310,9 +297,7 @@
                                     "src": "208:121:0",
                                     "statements": [
                                         {
-                                            "assignments": [
-                                                25
-                                            ],
+                                            "assignments": [25],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -364,9 +349,7 @@
                                             "src": "218:9:0"
                                         },
                                         {
-                                            "assignments": [
-                                                29
-                                            ],
+                                            "assignments": [29],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -615,20 +598,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/while_050.sol",
                     "exportedSymbols": {
-                        "TestWhile": [
-                            47
-                        ]
+                        "TestWhile": [47]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.5",
-                                ".0"
-                            ]
+                            "literals": ["solidity", "^", "0.5", ".0"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -636,18 +612,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                47
-                            ],
+                            "linearizedBaseContracts": [47],
                             "name": "TestWhile",
                             "scope": 48
                         },
@@ -658,9 +628,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "whileWithExpression",
                                     "scope": 47,
                                     "stateMutability": "nonpayable",
@@ -670,9 +638,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -681,9 +647,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 3,
@@ -694,9 +658,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        5
-                                                    ]
+                                                    "assignments": [5]
                                                 },
                                                 "children": [
                                                     {
@@ -749,9 +711,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        9
-                                                    ]
+                                                    "assignments": [9]
                                                 },
                                                 "children": [
                                                     {
@@ -927,9 +887,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "whileWithBlock",
                                     "scope": 47,
                                     "stateMutability": "nonpayable",
@@ -939,9 +897,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 22,
@@ -950,9 +906,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 23,
@@ -963,9 +917,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        25
-                                                    ]
+                                                    "assignments": [25]
                                                 },
                                                 "children": [
                                                     {
@@ -1018,9 +970,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        29
-                                                    ]
+                                                    "assignments": [29]
                                                 },
                                                 "children": [
                                                     {

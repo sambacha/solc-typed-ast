@@ -686,10 +686,7 @@
                 "singleThrow()": "711f14dc"
             },
             "gasEstimates": {
-                "creation": [
-                    93,
-                    40800
-                ],
+                "creation": [93, 40800],
                 "external": {
                     "nestedThrow(int256)": 218,
                     "singleThrow()": 152
@@ -720,20 +717,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/throw_0413.sol",
                     "exportedSymbols": {
-                        "TestThrow": [
-                            24
-                        ]
+                        "TestThrow": [24]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.4",
-                                ".13"
-                            ]
+                            "literals": ["solidity", "^", "0.4", ".13"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -741,18 +731,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                24
-                            ],
+                            "linearizedBaseContracts": [24],
                             "name": "TestThrow",
                             "scope": 25
                         },
@@ -763,9 +747,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "singleThrow",
                                     "payable": false,
                                     "scope": 24,
@@ -776,9 +758,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -842,9 +822,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "nestedThrow",
                                     "payable": false,
                                     "scope": 24,
@@ -996,9 +974,7 @@
                                                     {
                                                         "attributes": {
                                                             "argumentTypes": null,
-                                                            "overloadedDeclarations": [
-                                                                null
-                                                            ],
+                                                            "overloadedDeclarations": [null],
                                                             "referencedDeclaration": 10,
                                                             "type": "int256",
                                                             "value": "x"

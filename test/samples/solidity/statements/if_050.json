@@ -54,21 +54,14 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/if_050.sol",
                 "exportedSymbols": {
-                    "TestIf": [
-                        129
-                    ]
+                    "TestIf": [129]
                 },
                 "id": 130,
                 "nodeType": "SourceUnit",
                 "nodes": [
                     {
                         "id": 1,
-                        "literals": [
-                            "solidity",
-                            "^",
-                            "0.5",
-                            ".0"
-                        ],
+                        "literals": ["solidity", "^", "0.5", ".0"],
                         "nodeType": "PragmaDirective",
                         "src": "0:23:0"
                     },
@@ -79,9 +72,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 129,
-                        "linearizedBaseContracts": [
-                            129
-                        ],
+                        "linearizedBaseContracts": [129],
                         "name": "TestIf",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -92,9 +83,7 @@
                                     "src": "82:77:0",
                                     "statements": [
                                         {
-                                            "assignments": [
-                                                5
-                                            ],
+                                            "assignments": [5],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -146,9 +135,7 @@
                                             "src": "92:9:0"
                                         },
                                         {
-                                            "assignments": [
-                                                9
-                                            ],
+                                            "assignments": [9],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -372,9 +359,7 @@
                                     "src": "205:102:0",
                                     "statements": [
                                         {
-                                            "assignments": [
-                                                27
-                                            ],
+                                            "assignments": [27],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -426,9 +411,7 @@
                                             "src": "215:9:0"
                                         },
                                         {
-                                            "assignments": [
-                                                31
-                                            ],
+                                            "assignments": [31],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -734,9 +717,7 @@
                                     "src": "343:128:0",
                                     "statements": [
                                         {
-                                            "assignments": [
-                                                55
-                                            ],
+                                            "assignments": [55],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -788,9 +769,7 @@
                                             "src": "353:9:0"
                                         },
                                         {
-                                            "assignments": [
-                                                59
-                                            ],
+                                            "assignments": [59],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -1136,9 +1115,7 @@
                                     "src": "512:196:0",
                                     "statements": [
                                         {
-                                            "assignments": [
-                                                86
-                                            ],
+                                            "assignments": [86],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -1190,9 +1167,7 @@
                                             "src": "522:9:0"
                                         },
                                         {
-                                            "assignments": [
-                                                90
-                                            ],
+                                            "assignments": [90],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -1747,20 +1722,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/if_050.sol",
                     "exportedSymbols": {
-                        "TestIf": [
-                            129
-                        ]
+                        "TestIf": [129]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.5",
-                                ".0"
-                            ]
+                            "literals": ["solidity", "^", "0.5", ".0"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -1768,18 +1736,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                129
-                            ],
+                            "linearizedBaseContracts": [129],
                             "name": "TestIf",
                             "scope": 130
                         },
@@ -1790,9 +1752,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "ifWithExpression",
                                     "scope": 129,
                                     "stateMutability": "nonpayable",
@@ -1802,9 +1762,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -1813,9 +1771,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 3,
@@ -1826,9 +1782,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        5
-                                                    ]
+                                                    "assignments": [5]
                                                 },
                                                 "children": [
                                                     {
@@ -1881,9 +1835,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        9
-                                                    ]
+                                                    "assignments": [9]
                                                 },
                                                 "children": [
                                                     {
@@ -2099,9 +2051,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "ifElseWithExpressions",
                                     "scope": 129,
                                     "stateMutability": "nonpayable",
@@ -2111,9 +2061,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 24,
@@ -2122,9 +2070,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 25,
@@ -2135,9 +2081,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        27
-                                                    ]
+                                                    "assignments": [27]
                                                 },
                                                 "children": [
                                                     {
@@ -2190,9 +2134,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        31
-                                                    ]
+                                                    "assignments": [31]
                                                 },
                                                 "children": [
                                                     {
@@ -2493,9 +2435,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "ifWithBlock",
                                     "scope": 129,
                                     "stateMutability": "nonpayable",
@@ -2505,9 +2445,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 52,
@@ -2516,9 +2454,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 53,
@@ -2529,9 +2465,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        55
-                                                    ]
+                                                    "assignments": [55]
                                                 },
                                                 "children": [
                                                     {
@@ -2584,9 +2518,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        59
-                                                    ]
+                                                    "assignments": [59]
                                                 },
                                                 "children": [
                                                     {
@@ -2931,9 +2863,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "ifElseWithBlocks",
                                     "scope": 129,
                                     "stateMutability": "nonpayable",
@@ -2943,9 +2873,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 83,
@@ -2954,9 +2882,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 84,
@@ -2967,9 +2893,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        86
-                                                    ]
+                                                    "assignments": [86]
                                                 },
                                                 "children": [
                                                     {
@@ -3022,9 +2946,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        90
-                                                    ]
+                                                    "assignments": [90]
                                                 },
                                                 "children": [
                                                     {

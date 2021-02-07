@@ -30,9 +30,7 @@
             "ast": {
                 "absolutePath": "./test/sol_files/json_code/A.sol",
                 "exportedSymbols": {
-                    "A": [
-                        8
-                    ]
+                    "A": [8]
                 },
                 "id": 9,
                 "nodeType": "SourceUnit",
@@ -44,9 +42,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 8,
-                        "linearizedBaseContracts": [
-                            8
-                        ],
+                        "linearizedBaseContracts": [8],
                         "name": "A",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -88,26 +84,18 @@
                 "attributes": {
                     "absolutePath": "./test/sol_files/json_code/A.sol",
                     "exportedSymbols": {
-                        "A": [
-                            8
-                        ]
+                        "A": [8]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                8
-                            ],
+                            "linearizedBaseContracts": [8],
                             "name": "A",
                             "scope": 9
                         },
@@ -154,9 +142,7 @@
             "ast": {
                 "absolutePath": "./test/sol_files/json_code/B.sol",
                 "exportedSymbols": {
-                    "B": [
-                        4
-                    ]
+                    "B": [4]
                 },
                 "id": 5,
                 "nodeType": "SourceUnit",
@@ -179,9 +165,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 4,
-                        "linearizedBaseContracts": [
-                            4
-                        ],
+                        "linearizedBaseContracts": [4],
                         "name": "B",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -223,9 +207,7 @@
                 "attributes": {
                     "absolutePath": "./test/sol_files/json_code/B.sol",
                     "exportedSymbols": {
-                        "B": [
-                            4
-                        ]
+                        "B": [4]
                     }
                 },
                 "children": [
@@ -235,9 +217,7 @@
                             "absolutePath": "./test/sol_files/json_code/A.sol",
                             "file": "./A.sol",
                             "scope": 5,
-                            "symbolAliases": [
-                                null
-                            ],
+                            "symbolAliases": [null],
                             "unitAlias": ""
                         },
                         "id": 1,
@@ -246,18 +226,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                4
-                            ],
+                            "linearizedBaseContracts": [4],
                             "name": "B",
                             "scope": 5
                         },

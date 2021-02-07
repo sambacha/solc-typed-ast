@@ -3,7 +3,9 @@ import { ElementaryTypeNameExpression } from "../implementation/expression/eleme
 import { ElementaryTypeName } from "../implementation/type/elementary_type_name";
 import { LegacyExpressionProcessor } from "./expression_processor";
 
-export class LegacyElementaryTypeNameExpressionProcessor extends LegacyExpressionProcessor<ElementaryTypeNameExpression> {
+export class LegacyElementaryTypeNameExpressionProcessor extends LegacyExpressionProcessor<
+    ElementaryTypeNameExpression
+> {
     process(
         reader: ASTReader,
         config: ASTReaderConfiguration,

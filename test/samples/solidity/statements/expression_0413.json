@@ -778,10 +778,7 @@
                 "single(int256)": "a5fb48fc"
             },
             "gasEstimates": {
-                "creation": [
-                    99,
-                    45000
-                ],
+                "creation": [99, 45000],
                 "external": {
                     "multiple()": 130,
                     "nested()": null,
@@ -817,20 +814,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/expression_0413.sol",
                     "exportedSymbols": {
-                        "TestExpressionStatement": [
-                            81
-                        ]
+                        "TestExpressionStatement": [81]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.4",
-                                ".13"
-                            ]
+                            "literals": ["solidity", "^", "0.4", ".13"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -838,18 +828,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                81
-                            ],
+                            "linearizedBaseContracts": [81],
                             "name": "TestExpressionStatement",
                             "scope": 82
                         },
@@ -860,9 +844,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "single",
                                     "payable": false,
                                     "scope": 81,
@@ -906,9 +888,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 5,
@@ -994,9 +974,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "multiple",
                                     "payable": false,
                                     "scope": 81,
@@ -1007,9 +985,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 12,
@@ -1018,9 +994,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 13,
@@ -1031,9 +1005,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        15
-                                                    ]
+                                                    "assignments": [15]
                                                 },
                                                 "children": [
                                                     {
@@ -1086,10 +1058,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        18,
-                                                        19
-                                                    ]
+                                                    "assignments": [18, 19]
                                                 },
                                                 "children": [
                                                     {
@@ -1556,9 +1525,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "nested",
                                     "payable": false,
                                     "scope": 81,
@@ -1569,9 +1536,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 50,
@@ -1580,9 +1545,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 51,
@@ -1593,9 +1556,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        null
-                                                    ],
+                                                    "assignments": [null],
                                                     "initialValue": null
                                                 },
                                                 "children": [

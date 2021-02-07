@@ -2,7 +2,9 @@ import { ASTReader, ASTReaderConfiguration } from "../ast_reader";
 import { StructuredDocumentation } from "../implementation/meta/structured_documentation";
 import { LegacyNodeProcessor } from "./node_processor";
 
-export class LegacyStructuredDocumentationProcessor extends LegacyNodeProcessor<StructuredDocumentation> {
+export class LegacyStructuredDocumentationProcessor extends LegacyNodeProcessor<
+    StructuredDocumentation
+> {
     process(
         reader: ASTReader,
         config: ASTReaderConfiguration,

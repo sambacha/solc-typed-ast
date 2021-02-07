@@ -34,18 +34,10 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/three_simple_contracts.sol",
                 "exportedSymbols": {
-                    "A": [
-                        73
-                    ],
-                    "B": [
-                        33
-                    ],
-                    "C": [
-                        22
-                    ],
-                    "D": [
-                        11
-                    ]
+                    "A": [73],
+                    "B": [33],
+                    "C": [22],
+                    "D": [11]
                 },
                 "id": 74,
                 "nodeType": "SourceUnit",
@@ -57,9 +49,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 11,
-                        "linearizedBaseContracts": [
-                            11
-                        ],
+                        "linearizedBaseContracts": [11],
                         "name": "D",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -184,9 +174,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 22,
-                        "linearizedBaseContracts": [
-                            22
-                        ],
+                        "linearizedBaseContracts": [22],
                         "name": "C",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -325,17 +313,12 @@
                                 "src": "158:1:0"
                             }
                         ],
-                        "contractDependencies": [
-                            22
-                        ],
+                        "contractDependencies": [22],
                         "contractKind": "contract",
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 33,
-                        "linearizedBaseContracts": [
-                            33,
-                            22
-                        ],
+                        "linearizedBaseContracts": [33, 22],
                         "name": "B",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -466,21 +449,12 @@
                                 "src": "220:1:0"
                             }
                         ],
-                        "contractDependencies": [
-                            11,
-                            22,
-                            33
-                        ],
+                        "contractDependencies": [11, 22, 33],
                         "contractKind": "contract",
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 73,
-                        "linearizedBaseContracts": [
-                            73,
-                            11,
-                            33,
-                            22
-                        ],
+                        "linearizedBaseContracts": [73, 11, 33, 22],
                         "name": "A",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -832,35 +806,21 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/three_simple_contracts.sol",
                     "exportedSymbols": {
-                        "A": [
-                            73
-                        ],
-                        "B": [
-                            33
-                        ],
-                        "C": [
-                            22
-                        ],
-                        "D": [
-                            11
-                        ]
+                        "A": [73],
+                        "B": [33],
+                        "C": [22],
+                        "D": [11]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                11
-                            ],
+                            "linearizedBaseContracts": [11],
                             "name": "D",
                             "scope": 74
                         },
@@ -897,9 +857,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "f",
                                     "scope": 11,
                                     "stateMutability": "nonpayable",
@@ -909,9 +867,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 3,
@@ -920,9 +876,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 4,
@@ -1002,18 +956,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                22
-                            ],
+                            "linearizedBaseContracts": [22],
                             "name": "C",
                             "scope": 74
                         },
@@ -1050,9 +998,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "f",
                                     "scope": 22,
                                     "stateMutability": "nonpayable",
@@ -1062,9 +1008,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 14,
@@ -1073,9 +1017,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 15,
@@ -1155,16 +1097,11 @@
                     },
                     {
                         "attributes": {
-                            "contractDependencies": [
-                                22
-                            ],
+                            "contractDependencies": [22],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                33,
-                                22
-                            ],
+                            "linearizedBaseContracts": [33, 22],
                             "name": "B",
                             "scope": 74
                         },
@@ -1196,9 +1133,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "f",
                                     "scope": 33,
                                     "stateMutability": "nonpayable",
@@ -1208,9 +1143,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 25,
@@ -1219,9 +1152,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 26,
@@ -1301,20 +1232,11 @@
                     },
                     {
                         "attributes": {
-                            "contractDependencies": [
-                                11,
-                                22,
-                                33
-                            ],
+                            "contractDependencies": [11, 22, 33],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                73,
-                                11,
-                                33,
-                                22
-                            ],
+                            "linearizedBaseContracts": [73, 11, 33, 22],
                             "name": "A",
                             "scope": 74
                         },
@@ -1367,9 +1289,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "f",
                                     "scope": 73,
                                     "stateMutability": "nonpayable",
@@ -1379,9 +1299,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 38,
@@ -1390,9 +1308,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 39,
@@ -1471,9 +1387,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "f1",
                                     "scope": 73,
                                     "stateMutability": "nonpayable",
@@ -1483,9 +1397,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 46,
@@ -1494,9 +1406,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 47,
@@ -1510,26 +1420,20 @@
                                                     {
                                                         "attributes": {
                                                             "argumentTypes": null,
-                                                            "arguments": [
-                                                                null
-                                                            ],
+                                                            "arguments": [null],
                                                             "isConstant": false,
                                                             "isLValue": false,
                                                             "isPure": false,
                                                             "isStructConstructorCall": false,
                                                             "lValueRequested": false,
-                                                            "names": [
-                                                                null
-                                                            ],
+                                                            "names": [null],
                                                             "type": "tuple()",
                                                             "type_conversion": false
                                                         },
                                                         "children": [
                                                             {
                                                                 "attributes": {
-                                                                    "argumentTypes": [
-                                                                        null
-                                                                    ],
+                                                                    "argumentTypes": [null],
                                                                     "isConstant": false,
                                                                     "isLValue": false,
                                                                     "isPure": false,
@@ -1584,9 +1488,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "f2",
                                     "scope": 73,
                                     "stateMutability": "nonpayable",
@@ -1596,9 +1498,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 55,
@@ -1607,9 +1507,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 56,
@@ -1623,26 +1521,20 @@
                                                     {
                                                         "attributes": {
                                                             "argumentTypes": null,
-                                                            "arguments": [
-                                                                null
-                                                            ],
+                                                            "arguments": [null],
                                                             "isConstant": false,
                                                             "isLValue": false,
                                                             "isPure": false,
                                                             "isStructConstructorCall": false,
                                                             "lValueRequested": false,
-                                                            "names": [
-                                                                null
-                                                            ],
+                                                            "names": [null],
                                                             "type": "tuple()",
                                                             "type_conversion": false
                                                         },
                                                         "children": [
                                                             {
                                                                 "attributes": {
-                                                                    "argumentTypes": [
-                                                                        null
-                                                                    ],
+                                                                    "argumentTypes": [null],
                                                                     "isConstant": false,
                                                                     "isLValue": false,
                                                                     "isPure": false,
@@ -1697,9 +1589,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "f3",
                                     "scope": 73,
                                     "stateMutability": "nonpayable",
@@ -1709,9 +1599,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 64,
@@ -1720,9 +1608,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 65,
@@ -1736,26 +1622,20 @@
                                                     {
                                                         "attributes": {
                                                             "argumentTypes": null,
-                                                            "arguments": [
-                                                                null
-                                                            ],
+                                                            "arguments": [null],
                                                             "isConstant": false,
                                                             "isLValue": false,
                                                             "isPure": false,
                                                             "isStructConstructorCall": false,
                                                             "lValueRequested": false,
-                                                            "names": [
-                                                                null
-                                                            ],
+                                                            "names": [null],
                                                             "type": "tuple()",
                                                             "type_conversion": false
                                                         },
                                                         "children": [
                                                             {
                                                                 "attributes": {
-                                                                    "argumentTypes": [
-                                                                        null
-                                                                    ],
+                                                                    "argumentTypes": [null],
                                                                     "isConstant": false,
                                                                     "isLValue": false,
                                                                     "isPure": false,

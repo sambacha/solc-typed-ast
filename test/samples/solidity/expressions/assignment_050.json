@@ -37,9 +37,7 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/expressions/assignment.sol",
                 "exportedSymbols": {
-                    "Test": [
-                        48
-                    ]
+                    "Test": [48]
                 },
                 "id": 49,
                 "nodeType": "SourceUnit",
@@ -51,9 +49,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 48,
-                        "linearizedBaseContracts": [
-                            48
-                        ],
+                        "linearizedBaseContracts": [48],
                         "name": "Test",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -107,9 +103,7 @@
                                     "src": "59:171:0",
                                     "statements": [
                                         {
-                                            "assignments": [
-                                                7
-                                            ],
+                                            "assignments": [7],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -658,26 +652,18 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/expressions/assignment.sol",
                     "exportedSymbols": {
-                        "Test": [
-                            48
-                        ]
+                        "Test": [48]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                48
-                            ],
+                            "linearizedBaseContracts": [48],
                             "name": "Test",
                             "scope": 49
                         },
@@ -730,9 +716,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "some",
                                     "scope": 48,
                                     "stateMutability": "nonpayable",
@@ -742,9 +726,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 4,
@@ -753,9 +735,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 5,
@@ -766,9 +746,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        7
-                                                    ]
+                                                    "assignments": [7]
                                                 },
                                                 "children": [
                                                     {

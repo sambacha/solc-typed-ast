@@ -474,10 +474,7 @@
                 "some()": "c03ee3d3"
             },
             "gasEstimates": {
-                "creation": [
-                    20083,
-                    29200
-                ],
+                "creation": [20083, 29200],
                 "external": {
                     "some()": 149
                 },
@@ -503,26 +500,18 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/expressions/assignment.sol",
                     "exportedSymbols": {
-                        "Test": [
-                            48
-                        ]
+                        "Test": [48]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                48
-                            ],
+                            "linearizedBaseContracts": [48],
                             "name": "Test",
                             "scope": 49
                         },
@@ -574,9 +563,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "some",
                                     "payable": false,
                                     "scope": 48,
@@ -585,9 +572,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 4,
@@ -596,9 +581,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 5,
@@ -609,9 +592,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        7
-                                                    ]
+                                                    "assignments": [7]
                                                 },
                                                 "children": [
                                                     {

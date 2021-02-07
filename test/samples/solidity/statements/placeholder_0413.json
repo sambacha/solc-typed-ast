@@ -162,10 +162,7 @@
             "bytecode": "6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820b2ade68ceef897e7cf614b277d588c88c90be6356080dc302dfb5d7f952be2ec0029",
             "functionHashes": {},
             "gasEstimates": {
-                "creation": [
-                    66,
-                    10600
-                ],
+                "creation": [66, 10600],
                 "external": {},
                 "internal": {}
             },
@@ -186,20 +183,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/placeholder_0413.sol",
                     "exportedSymbols": {
-                        "TestPlaceholder": [
-                            25
-                        ]
+                        "TestPlaceholder": [25]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.4",
-                                ".13"
-                            ]
+                            "literals": ["solidity", "^", "0.4", ".13"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -207,18 +197,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                25
-                            ],
+                            "linearizedBaseContracts": [25],
                             "name": "TestPlaceholder",
                             "scope": 26
                         },
@@ -232,9 +216,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -310,9 +292,7 @@
                                                             "isPure": false,
                                                             "isStructConstructorCall": false,
                                                             "lValueRequested": false,
-                                                            "names": [
-                                                                null
-                                                            ],
+                                                            "names": [null],
                                                             "type": "tuple()",
                                                             "type_conversion": false
                                                         },
@@ -461,26 +441,20 @@
                                                             {
                                                                 "attributes": {
                                                                     "argumentTypes": null,
-                                                                    "arguments": [
-                                                                        null
-                                                                    ],
+                                                                    "arguments": [null],
                                                                     "isConstant": false,
                                                                     "isLValue": false,
                                                                     "isPure": false,
                                                                     "isStructConstructorCall": false,
                                                                     "lValueRequested": false,
-                                                                    "names": [
-                                                                        null
-                                                                    ],
+                                                                    "names": [null],
                                                                     "type": "tuple()",
                                                                     "type_conversion": false
                                                                 },
                                                                 "children": [
                                                                     {
                                                                         "attributes": {
-                                                                            "argumentTypes": [
-                                                                                null
-                                                                            ],
+                                                                            "argumentTypes": [null],
                                                                             "overloadedDeclarations": [
                                                                                 45,
                                                                                 46

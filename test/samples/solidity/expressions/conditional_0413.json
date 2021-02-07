@@ -2088,10 +2088,7 @@
                 "sqrt(uint256)": "677342ce"
             },
             "gasEstimates": {
-                "creation": [
-                    165,
-                    120800
-                ],
+                "creation": [165, 120800],
                 "external": {
                     "conditionalSimple(uint256)": 262,
                     "conditionalWithComplexExpressions(uint256)": null,
@@ -2122,20 +2119,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/expressions/conditional_0413.sol",
                     "exportedSymbols": {
-                        "TestConditional": [
-                            113
-                        ]
+                        "TestConditional": [113]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.4",
-                                ".13"
-                            ]
+                            "literals": ["solidity", "^", "0.4", ".13"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -2143,18 +2133,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                113
-                            ],
+                            "linearizedBaseContracts": [113],
                             "name": "TestConditional",
                             "scope": 114
                         },
@@ -2165,9 +2149,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "conditionalSimple",
                                     "payable": false,
                                     "scope": 113,
@@ -2370,9 +2352,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "conditionalWithNested",
                                     "payable": false,
                                     "scope": 113,
@@ -2800,9 +2780,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "conditionalWithComplexExpressions",
                                     "payable": false,
                                     "scope": 113,
@@ -3005,9 +2983,7 @@
                                                                             "isPure": false,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "uint256",
                                                                             "type_conversion": false
                                                                         },
@@ -3203,9 +3179,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "sqrt",
                                     "payable": false,
                                     "scope": 113,
@@ -3284,9 +3258,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        79
-                                                    ]
+                                                    "assignments": [79]
                                                 },
                                                 "children": [
                                                     {

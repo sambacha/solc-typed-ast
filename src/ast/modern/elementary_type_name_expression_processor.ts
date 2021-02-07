@@ -3,7 +3,9 @@ import { ElementaryTypeNameExpression } from "../implementation/expression/eleme
 import { ElementaryTypeName } from "../implementation/type/elementary_type_name";
 import { ModernExpressionProcessor } from "./expression_processor";
 
-export class ModernElementaryTypeNameExpressionProcessor extends ModernExpressionProcessor<ElementaryTypeNameExpression> {
+export class ModernElementaryTypeNameExpressionProcessor extends ModernExpressionProcessor<
+    ElementaryTypeNameExpression
+> {
     process(
         reader: ASTReader,
         config: ASTReaderConfiguration,

@@ -1423,10 +1423,7 @@
                 "remove(Set.Data storage,uint256)": "483b8a14"
             },
             "gasEstimates": {
-                "creation": [
-                    125,
-                    77000
-                ],
+                "creation": [125, 77000],
                 "external": {
                     "contains(Set.Data storage,uint256)": 456,
                     "insert(Set.Data storage,uint256)": 20799,
@@ -3322,10 +3319,7 @@
                 "register(uint256)": "f207564e"
             },
             "gasEstimates": {
-                "creation": [
-                    149,
-                    108800
-                ],
+                "creation": [149, 108800],
                 "external": {
                     "add3(uint256)": null,
                     "register(uint256)": null
@@ -3782,10 +3776,7 @@
                 "test(uint256,uint256)": "eb8ac921"
             },
             "gasEstimates": {
-                "creation": [
-                    77,
-                    29200
-                ],
+                "creation": [77, 29200],
                 "external": {
                     "test(uint256,uint256)": 165
                 },
@@ -4231,10 +4222,7 @@
                 "add(uint256,uint256)": "771602f7"
             },
             "gasEstimates": {
-                "creation": [
-                    77,
-                    28800
-                ],
+                "creation": [77, 28800],
                 "external": {
                     "add(uint256,uint256)": 159
                 },
@@ -4260,35 +4248,21 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/meta/using_for.sol",
                     "exportedSymbols": {
-                        "Set": [
-                            76
-                        ],
-                        "SomeContract": [
-                            149
-                        ],
-                        "SomeLibraryForAny": [
-                            91
-                        ],
-                        "SomeLibraryForUint": [
-                            106
-                        ]
+                        "Set": [76],
+                        "SomeContract": [149],
+                        "SomeLibraryForAny": [91],
+                        "SomeLibraryForUint": [106]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "library",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                76
-                            ],
+                            "linearizedBaseContracts": [76],
                             "name": "Set",
                             "scope": 150
                         },
@@ -4356,9 +4330,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "insert",
                                     "payable": false,
                                     "scope": 76,
@@ -4700,9 +4672,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "remove",
                                     "payable": false,
                                     "scope": 76,
@@ -5061,9 +5031,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "contains",
                                     "payable": false,
                                     "scope": 76,
@@ -5253,18 +5221,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "library",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                91
-                            ],
+                            "linearizedBaseContracts": [91],
                             "name": "SomeLibraryForAny",
                             "scope": 150
                         },
@@ -5274,9 +5236,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "test",
                                     "payable": false,
                                     "scope": 91,
@@ -5452,18 +5412,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "library",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                106
-                            ],
+                            "linearizedBaseContracts": [106],
                             "name": "SomeLibraryForUint",
                             "scope": 150
                         },
@@ -5473,9 +5427,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "add",
                                     "payable": false,
                                     "scope": 106,
@@ -5651,18 +5603,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                149
-                            ],
+                            "linearizedBaseContracts": [149],
                             "name": "SomeContract",
                             "scope": 150
                         },
@@ -5777,9 +5723,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "add3",
                                     "payable": false,
                                     "scope": 149,
@@ -5864,9 +5808,7 @@
                                                             "isPure": false,
                                                             "isStructConstructorCall": false,
                                                             "lValueRequested": false,
-                                                            "names": [
-                                                                null
-                                                            ],
+                                                            "names": [null],
                                                             "type": "bool",
                                                             "type_conversion": false
                                                         },
@@ -5947,9 +5889,7 @@
                                                             "isPure": false,
                                                             "isStructConstructorCall": false,
                                                             "lValueRequested": false,
-                                                            "names": [
-                                                                null
-                                                            ],
+                                                            "names": [null],
                                                             "type": "uint256",
                                                             "type_conversion": false
                                                         },
@@ -6032,9 +5972,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "register",
                                     "payable": false,
                                     "scope": 149,
@@ -6076,9 +6014,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 139,
@@ -6097,9 +6033,7 @@
                                                             "isPure": false,
                                                             "isStructConstructorCall": false,
                                                             "lValueRequested": false,
-                                                            "names": [
-                                                                null
-                                                            ],
+                                                            "names": [null],
                                                             "type": "tuple()",
                                                             "type_conversion": false
                                                         },
@@ -6131,9 +6065,7 @@
                                                                     "isPure": false,
                                                                     "isStructConstructorCall": false,
                                                                     "lValueRequested": false,
-                                                                    "names": [
-                                                                        null
-                                                                    ],
+                                                                    "names": [null],
                                                                     "type": "bool",
                                                                     "type_conversion": false
                                                                 },

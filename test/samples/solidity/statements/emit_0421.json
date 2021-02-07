@@ -1166,10 +1166,7 @@
                 "singleEmit()": "7cca82c2"
             },
             "gasEstimates": {
-                "creation": [
-                    147,
-                    102200
-                ],
+                "creation": [147, 102200],
                 "external": {
                     "multipleEmits(int256)": 4204,
                     "singleEmit()": 2313
@@ -1193,20 +1190,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/emit_0421.sol",
                     "exportedSymbols": {
-                        "TestEmit": [
-                            54
-                        ]
+                        "TestEmit": [54]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.4",
-                                ".21"
-                            ]
+                            "literals": ["solidity", "^", "0.4", ".21"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -1214,18 +1204,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                54
-                            ],
+                            "linearizedBaseContracts": [54],
                             "name": "TestEmit",
                             "scope": 55
                         },
@@ -1409,9 +1393,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "singleEmit",
                                     "payable": false,
                                     "scope": 54,
@@ -1422,9 +1404,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 16,
@@ -1433,9 +1413,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 17,
@@ -1454,9 +1432,7 @@
                                                             "isPure": false,
                                                             "isStructConstructorCall": false,
                                                             "lValueRequested": false,
-                                                            "names": [
-                                                                null
-                                                            ],
+                                                            "names": [null],
                                                             "type": "tuple()",
                                                             "type_conversion": false
                                                         },
@@ -1530,9 +1506,7 @@
                                                                     "isPure": false,
                                                                     "isStructConstructorCall": false,
                                                                     "lValueRequested": false,
-                                                                    "names": [
-                                                                        null
-                                                                    ],
+                                                                    "names": [null],
                                                                     "type": "address",
                                                                     "type_conversion": true
                                                                 },
@@ -1601,9 +1575,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "multipleEmits",
                                     "payable": false,
                                     "scope": 54,
@@ -1647,9 +1619,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 31,
@@ -1726,9 +1696,7 @@
                                                                             "isPure": false,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "tuple()",
                                                                             "type_conversion": false
                                                                         },
@@ -1854,9 +1822,7 @@
                                                             "isPure": false,
                                                             "isStructConstructorCall": false,
                                                             "lValueRequested": false,
-                                                            "names": [
-                                                                null
-                                                            ],
+                                                            "names": [null],
                                                             "type": "tuple()",
                                                             "type_conversion": false
                                                         },
@@ -1927,9 +1893,7 @@
                                                                     "isPure": false,
                                                                     "isStructConstructorCall": false,
                                                                     "lValueRequested": false,
-                                                                    "names": [
-                                                                        null
-                                                                    ],
+                                                                    "names": [null],
                                                                     "type": "address",
                                                                     "type_conversion": true
                                                                 },

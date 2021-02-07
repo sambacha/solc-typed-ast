@@ -1061,10 +1061,7 @@
                 "single(int256)": "a5fb48fc"
             },
             "gasEstimates": {
-                "creation": [
-                    20129,
-                    72600
-                ],
+                "creation": [20129, 72600],
                 "external": {
                     "multiple()": 193,
                     "nested()": null,
@@ -1108,20 +1105,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/variable_declaration_0413.sol",
                     "exportedSymbols": {
-                        "TestVariableDeclarationStatement": [
-                            70
-                        ]
+                        "TestVariableDeclarationStatement": [70]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.4",
-                                ".13"
-                            ]
+                            "literals": ["solidity", "^", "0.4", ".13"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -1129,18 +1119,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                70
-                            ],
+                            "linearizedBaseContracts": [70],
                             "name": "TestVariableDeclarationStatement",
                             "scope": 71
                         },
@@ -1219,9 +1203,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "single",
                                     "payable": false,
                                     "scope": 70,
@@ -1265,9 +1247,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 10,
@@ -1278,9 +1258,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        12
-                                                    ]
+                                                    "assignments": [12]
                                                 },
                                                 "children": [
                                                     {
@@ -1347,9 +1325,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "multiple",
                                     "payable": false,
                                     "scope": 70,
@@ -1360,9 +1336,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 17,
@@ -1371,9 +1345,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 18,
@@ -1384,9 +1356,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        null
-                                                    ],
+                                                    "assignments": [null],
                                                     "initialValue": null
                                                 },
                                                 "children": [
@@ -1423,11 +1393,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        22,
-                                                        null,
-                                                        23
-                                                    ]
+                                                    "assignments": [22, null, 23]
                                                 },
                                                 "children": [
                                                     {
@@ -1592,9 +1558,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        33
-                                                    ]
+                                                    "assignments": [33]
                                                 },
                                                 "children": [
                                                     {
@@ -1652,9 +1616,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "nested",
                                     "payable": false,
                                     "scope": 70,
@@ -1665,9 +1627,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 38,
@@ -1676,9 +1636,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 39,
@@ -1691,9 +1649,7 @@
                                                 "children": [
                                                     {
                                                         "attributes": {
-                                                            "assignments": [
-                                                                41
-                                                            ]
+                                                            "assignments": [41]
                                                         },
                                                         "children": [
                                                             {
@@ -1775,9 +1731,7 @@
                                                         "children": [
                                                             {
                                                                 "attributes": {
-                                                                    "assignments": [
-                                                                        47
-                                                                    ]
+                                                                    "assignments": [47]
                                                                 },
                                                                 "children": [
                                                                     {
@@ -1842,9 +1796,7 @@
                                                 "children": [
                                                     {
                                                         "attributes": {
-                                                            "assignments": [
-                                                                53
-                                                            ]
+                                                            "assignments": [53]
                                                         },
                                                         "children": [
                                                             {
@@ -1988,9 +1940,7 @@
                                                         "children": [
                                                             {
                                                                 "attributes": {
-                                                                    "assignments": [
-                                                                        63
-                                                                    ]
+                                                                    "assignments": [63]
                                                                 },
                                                                 "children": [
                                                                     {

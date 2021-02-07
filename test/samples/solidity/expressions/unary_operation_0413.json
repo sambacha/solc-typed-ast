@@ -378,10 +378,7 @@
                 "some()": "c03ee3d3"
             },
             "gasEstimates": {
-                "creation": [
-                    77,
-                    26200
-                ],
+                "creation": [77, 26200],
                 "external": {
                     "some()": 115
                 },
@@ -408,26 +405,18 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/expressions/unary_operation_0413.sol",
                     "exportedSymbols": {
-                        "Test": [
-                            36
-                        ]
+                        "Test": [36]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                36
-                            ],
+                            "linearizedBaseContracts": [36],
                             "name": "Test",
                             "scope": 37
                         },
@@ -437,9 +426,7 @@
                                     "constant": false,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "some",
                                     "payable": false,
                                     "scope": 36,
@@ -448,9 +435,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 1,
@@ -459,9 +444,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -472,9 +455,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        4
-                                                    ]
+                                                    "assignments": [4]
                                                 },
                                                 "children": [
                                                     {
@@ -527,9 +508,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        8
-                                                    ]
+                                                    "assignments": [8]
                                                 },
                                                 "children": [
                                                     {

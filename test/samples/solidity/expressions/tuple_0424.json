@@ -822,10 +822,7 @@
                 "tupleSimple()": "7efedcb6"
             },
             "gasEstimates": {
-                "creation": [
-                    99,
-                    47400
-                ],
+                "creation": [99, 47400],
                 "external": {
                     "tupleArray()": null,
                     "tupleNested()": 174,
@@ -861,26 +858,18 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/expressions/tuple.sol",
                     "exportedSymbols": {
-                        "SomeContract": [
-                            63
-                        ]
+                        "SomeContract": [63]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                63
-                            ],
+                            "linearizedBaseContracts": [63],
                             "name": "SomeContract",
                             "scope": 64
                         },
@@ -891,9 +880,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "tupleSimple",
                                     "payable": false,
                                     "scope": 63,
@@ -904,9 +891,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 1,
@@ -915,9 +900,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -928,10 +911,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        4,
-                                                        6
-                                                    ]
+                                                    "assignments": [4, 6]
                                                 },
                                                 "children": [
                                                     {
@@ -1043,9 +1023,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        12
-                                                    ]
+                                                    "assignments": [12]
                                                 },
                                                 "children": [
                                                     {
@@ -1128,9 +1106,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "tupleNested",
                                     "payable": false,
                                     "scope": 63,
@@ -1141,9 +1117,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 18,
@@ -1152,9 +1126,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 19,
@@ -1165,9 +1137,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        null
-                                                    ],
+                                                    "assignments": [null],
                                                     "initialValue": null
                                                 },
                                                 "children": [
@@ -1204,9 +1174,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        null
-                                                    ],
+                                                    "assignments": [null],
                                                     "initialValue": null
                                                 },
                                                 "children": [
@@ -1243,9 +1211,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        null
-                                                    ],
+                                                    "assignments": [null],
                                                     "initialValue": null
                                                 },
                                                 "children": [
@@ -1282,9 +1248,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        null
-                                                    ],
+                                                    "assignments": [null],
                                                     "initialValue": null
                                                 },
                                                 "children": [
@@ -1493,9 +1457,7 @@
                                                                             "isPure": true,
                                                                             "isStructConstructorCall": false,
                                                                             "lValueRequested": false,
-                                                                            "names": [
-                                                                                null
-                                                                            ],
+                                                                            "names": [null],
                                                                             "type": "address",
                                                                             "type_conversion": true
                                                                         },
@@ -1572,9 +1534,7 @@
                                     "documentation": null,
                                     "implemented": true,
                                     "isConstructor": false,
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "tupleArray",
                                     "payable": false,
                                     "scope": 63,
@@ -1585,9 +1545,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 49,
@@ -1596,9 +1554,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 50,
@@ -1609,9 +1565,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        55
-                                                    ]
+                                                    "assignments": [55]
                                                 },
                                                 "children": [
                                                     {

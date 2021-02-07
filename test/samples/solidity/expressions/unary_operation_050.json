@@ -37,9 +37,7 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/expressions/unary_operation_050.sol",
                 "exportedSymbols": {
-                    "Test": [
-                        31
-                    ]
+                    "Test": [31]
                 },
                 "id": 32,
                 "nodeType": "SourceUnit",
@@ -51,9 +49,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 31,
-                        "linearizedBaseContracts": [
-                            31
-                        ],
+                        "linearizedBaseContracts": [31],
                         "name": "Test",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -64,9 +60,7 @@
                                     "src": "43:119:0",
                                     "statements": [
                                         {
-                                            "assignments": [
-                                                4
-                                            ],
+                                            "assignments": [4],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -118,9 +112,7 @@
                                             "src": "53:9:0"
                                         },
                                         {
-                                            "assignments": [
-                                                8
-                                            ],
+                                            "assignments": [8],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -430,26 +422,18 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/expressions/unary_operation_050.sol",
                     "exportedSymbols": {
-                        "Test": [
-                            31
-                        ]
+                        "Test": [31]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                31
-                            ],
+                            "linearizedBaseContracts": [31],
                             "name": "Test",
                             "scope": 32
                         },
@@ -460,9 +444,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "some",
                                     "scope": 31,
                                     "stateMutability": "nonpayable",
@@ -472,9 +454,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 1,
@@ -483,9 +463,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 2,
@@ -496,9 +474,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        4
-                                                    ]
+                                                    "assignments": [4]
                                                 },
                                                 "children": [
                                                     {
@@ -551,9 +527,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        8
-                                                    ]
+                                                    "assignments": [8]
                                                 },
                                                 "children": [
                                                     {

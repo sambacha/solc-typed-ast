@@ -66,21 +66,14 @@
             "ast": {
                 "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/expression_050.sol",
                 "exportedSymbols": {
-                    "TestExpressionStatement": [
-                        78
-                    ]
+                    "TestExpressionStatement": [78]
                 },
                 "id": 79,
                 "nodeType": "SourceUnit",
                 "nodes": [
                     {
                         "id": 1,
-                        "literals": [
-                            "solidity",
-                            "^",
-                            "0.5",
-                            ".0"
-                        ],
+                        "literals": ["solidity", "^", "0.5", ".0"],
                         "nodeType": "PragmaDirective",
                         "src": "0:23:0"
                     },
@@ -91,9 +84,7 @@
                         "documentation": null,
                         "fullyImplemented": true,
                         "id": 78,
-                        "linearizedBaseContracts": [
-                            78
-                        ],
+                        "linearizedBaseContracts": [78],
                         "name": "TestExpressionStatement",
                         "nodeType": "ContractDefinition",
                         "nodes": [
@@ -224,9 +215,7 @@
                                     "src": "149:138:0",
                                     "statements": [
                                         {
-                                            "assignments": [
-                                                15
-                                            ],
+                                            "assignments": [15],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -278,10 +267,7 @@
                                             "src": "159:9:0"
                                         },
                                         {
-                                            "assignments": [
-                                                19,
-                                                21
-                                            ],
+                                            "assignments": [19, 21],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -767,9 +753,7 @@
                                     "src": "318:102:0",
                                     "statements": [
                                         {
-                                            "assignments": [
-                                                55
-                                            ],
+                                            "assignments": [55],
                                             "declarations": [
                                                 {
                                                     "constant": false,
@@ -1074,20 +1058,13 @@
                 "attributes": {
                     "absolutePath": "/home/blitz/development/solc-typed-ast/test/samples/solidity/statements/expression_050.sol",
                     "exportedSymbols": {
-                        "TestExpressionStatement": [
-                            78
-                        ]
+                        "TestExpressionStatement": [78]
                     }
                 },
                 "children": [
                     {
                         "attributes": {
-                            "literals": [
-                                "solidity",
-                                "^",
-                                "0.5",
-                                ".0"
-                            ]
+                            "literals": ["solidity", "^", "0.5", ".0"]
                         },
                         "id": 1,
                         "name": "PragmaDirective",
@@ -1095,18 +1072,12 @@
                     },
                     {
                         "attributes": {
-                            "baseContracts": [
-                                null
-                            ],
-                            "contractDependencies": [
-                                null
-                            ],
+                            "baseContracts": [null],
+                            "contractDependencies": [null],
                             "contractKind": "contract",
                             "documentation": null,
                             "fullyImplemented": true,
-                            "linearizedBaseContracts": [
-                                78
-                            ],
+                            "linearizedBaseContracts": [78],
                             "name": "TestExpressionStatement",
                             "scope": 79
                         },
@@ -1117,9 +1088,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "single",
                                     "scope": 78,
                                     "stateMutability": "nonpayable",
@@ -1162,9 +1131,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 5,
@@ -1250,9 +1217,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "multiple",
                                     "scope": 78,
                                     "stateMutability": "nonpayable",
@@ -1262,9 +1227,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 12,
@@ -1273,9 +1236,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 13,
@@ -1286,9 +1247,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        15
-                                                    ]
+                                                    "assignments": [15]
                                                 },
                                                 "children": [
                                                     {
@@ -1341,10 +1300,7 @@
                                             },
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        19,
-                                                        21
-                                                    ]
+                                                    "assignments": [19, 21]
                                                 },
                                                 "children": [
                                                     {
@@ -1829,9 +1785,7 @@
                                     "implemented": true,
                                     "isConstructor": false,
                                     "kind": "function",
-                                    "modifiers": [
-                                        null
-                                    ],
+                                    "modifiers": [null],
                                     "name": "nested",
                                     "scope": 78,
                                     "stateMutability": "nonpayable",
@@ -1841,9 +1795,7 @@
                                 "children": [
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 52,
@@ -1852,9 +1804,7 @@
                                     },
                                     {
                                         "attributes": {
-                                            "parameters": [
-                                                null
-                                            ]
+                                            "parameters": [null]
                                         },
                                         "children": [],
                                         "id": 53,
@@ -1865,9 +1815,7 @@
                                         "children": [
                                             {
                                                 "attributes": {
-                                                    "assignments": [
-                                                        55
-                                                    ],
+                                                    "assignments": [55],
                                                     "initialValue": null
                                                 },
                                                 "children": [
