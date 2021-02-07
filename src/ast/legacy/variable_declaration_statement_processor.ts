@@ -4,9 +4,7 @@ import { Expression } from "../implementation/expression/expression";
 import { VariableDeclarationStatement } from "../implementation/statement/variable_declaration_statement";
 import { LegacyNodeProcessor } from "./node_processor";
 
-export class LegacyVariableDeclarationStatementProcessor extends LegacyNodeProcessor<
-    VariableDeclarationStatement
-> {
+export class LegacyVariableDeclarationStatementProcessor extends LegacyNodeProcessor<VariableDeclarationStatement> {
     process(
         reader: ASTReader,
         config: ASTReaderConfiguration,

@@ -6,9 +6,7 @@ import { ModernNodeProcessor } from "./node_processor";
 
 const declarationsFilterFn = (declaration: unknown | null) => declaration !== null;
 
-export class ModernVariableDeclarationStatementProcessor extends ModernNodeProcessor<
-    VariableDeclarationStatement
-> {
+export class ModernVariableDeclarationStatementProcessor extends ModernNodeProcessor<VariableDeclarationStatement> {
     process(
         reader: ASTReader,
         config: ASTReaderConfiguration,

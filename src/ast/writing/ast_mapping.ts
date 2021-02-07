@@ -472,9 +472,7 @@ class ExpressionStatementWriter extends SimpleStatementWriter<ExpressionStatemen
     }
 }
 
-class VariableDeclarationStatementWriter extends SimpleStatementWriter<
-    VariableDeclarationStatement
-> {
+class VariableDeclarationStatementWriter extends SimpleStatementWriter<VariableDeclarationStatement> {
     writeInner(node: VariableDeclarationStatement, writer: ASTWriter): SrcDesc {
         const elements = this.getDeclarations(node);
 
@@ -532,9 +530,9 @@ class VariableDeclarationStatementWriter extends SimpleStatementWriter<
  * Compound statemetns don't have their own semicolons. However if a
  * child has a semi-colon, we must make sure to exclude it from our soruce map.
  */
-abstract class CompoundStatementWriter<T extends CompoundStatement> extends SimpleStatementWriter<
-    T
-> {
+abstract class CompoundStatementWriter<
+    T extends CompoundStatement
+> extends SimpleStatementWriter<T> {
     writeWhole(node: T, writer: ASTWriter): SrcDesc {
         const stmtDesc = this.writeInner(node, writer);
 

@@ -3,9 +3,7 @@ import { IdentifierPath } from "../implementation/meta/identifier_path";
 import { UserDefinedTypeName } from "../implementation/type/user_defined_type_name";
 import { ModernTypeNameProcessor } from "./type_name_processor";
 
-export class ModernUserDefinedTypeNameProcessor extends ModernTypeNameProcessor<
-    UserDefinedTypeName
-> {
+export class ModernUserDefinedTypeNameProcessor extends ModernTypeNameProcessor<UserDefinedTypeName> {
     process(
         reader: ASTReader,
         config: ASTReaderConfiguration,

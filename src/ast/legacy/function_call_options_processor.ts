@@ -3,9 +3,7 @@ import { Expression } from "../implementation/expression/expression";
 import { FunctionCallOptions } from "../implementation/expression/function_call_options";
 import { LegacyExpressionProcessor } from "./expression_processor";
 
-export class LegacyFunctionCallOptionsProcessor extends LegacyExpressionProcessor<
-    FunctionCallOptions
-> {
+export class LegacyFunctionCallOptionsProcessor extends LegacyExpressionProcessor<FunctionCallOptions> {
     process(
         reader: ASTReader,
         config: ASTReaderConfiguration,
