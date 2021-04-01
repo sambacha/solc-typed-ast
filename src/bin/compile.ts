@@ -69,7 +69,7 @@ if (args.version) {
 
 USAGE:
 
-$ sol-ast-compile <filename>
+$ sol-bin <filename>
 
 OPTIONS:
     --help                  Print help message.
