@@ -1,5 +1,5 @@
 {
-    "name": "solc-typed-ast",
+    "name": "sol-bin",
     "version": "3.2.1",
     "description": "A TypeScript library providing a normalized typed Solidity AST along with the utilities necessary to generate the AST (from Solc) and traverse/manipulate it.",
     "keywords": [],
@@ -9,7 +9,7 @@
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "bin": {
-        "sol-ast-compile": "dist/bin/compile.js"
+        "sol-bin": "dist/bin/compile.js"
     },
     "scripts": {
         "clean": "rm -rf dist/",
@@ -107,7 +107,7 @@
         "typescript": "^4.1.3"
     },
     "homepage": "https://consensys.github.io/solc-typed-ast",
-    "bugs": "https://github.com/ConsenSys/solc-typed-ast/issues",
-    "repository": "https://github.com/ConsenSys/solc-typed-ast.git",
+    "bugs": "https://github.com/sambacha/solc-typed-ast/issues",
+    "repository": "https://github.com/sambacha/solc-typed-ast.git",
     "license": "Apache-2.0"
 }
